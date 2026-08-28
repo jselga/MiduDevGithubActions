@@ -1,7 +1,7 @@
 name: 03 - Schedule
 on:
     schedule:
-      - cron: '55 16 * * *' # Ejecutar todos los días a medianoche
+      - cron: '15 17 * * *'
 jobs:
   schedule:
     runs-on: ubuntu-24.04
