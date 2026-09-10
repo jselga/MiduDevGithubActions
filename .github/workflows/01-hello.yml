@@ -16,6 +16,10 @@ jobs:
         run: date +"%T"  
       - name: espacio disco
         run: df -h
+      - name: qui soc
+        run: whoami
+      - name: qui som
+        run: cat /etc/passwd      
   repo-files:
     runs-on: ubuntu-24.04
     steps:
